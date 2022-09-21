@@ -20,7 +20,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je startniveau:
   Blauw
-  #### Je focus: surface plane
+  #### Je focus: responsive
 
 
 </details>
@@ -35,15 +35,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.reisjunk.nl/
+https://stach-food.nl/
 
-  #### Screenshot(s) van de eerste pagina (small screen):
+  #### Screenshot(s) van de homepagina (small screen):
 
-  <img src="images/pagina1.png" width="375px" alt="hoofdpagina">
+  <img src="readme-images/homepagina.png" width="375px" alt="screenshot van de homepagina">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
+  #### Screenshot(s) van de vacaturepagina (small screen):
 
-<img src="images/pagina2.png" width="375px" alt="artikel">
+<img src="readme-images/vacaturepagina.png" width="375px" alt="screenshot van de vacaturepagina">
 </details>
 
 
@@ -88,14 +88,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
-  ### de hele pagina:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### De hele homepagina:
+  <img src="readme-images/homepagina-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### De hele vacaturepagina:
+  <img src="readme-images/vacaturepagina-breakdown.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### Een menu van een andere pagina voor de vacaturepagina (bijv filter):
+  <img src="readme-images/vacaturepagina-formulier.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
+  ### Het hamburgermenu:
+  <img src="readme-images/hamburgermenu-breakdown.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
