@@ -95,10 +95,10 @@ https://stach-food.nl/
   <img src="readme-images/vacaturepagina-breakdown.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### Een menu van een andere pagina voor de vacaturepagina (bijv filter):
-  <img src="readme-images/vacaturepagina-formulier.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/vacaturepagina-formulier.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
   ### Het hamburgermenu:
-  <img src="readme-images/hamburgermenu-breakdown.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/hamburgermenu-breakdown.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
