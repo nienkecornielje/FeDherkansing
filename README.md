@@ -37,11 +37,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
 https://stach-food.nl/
 
-  #### Screenshot(s) van de homepagina (small screen):
+  #### Screenshot van de homepagina (small screen):
 
   <img src="readme-images/homepagina.png" width="375px" alt="screenshot van de homepagina">
 
-  #### Screenshot(s) van de vacaturepagina (small screen):
+  #### Screenshot van de vacaturepagina (small screen):
 
 <img src="readme-images/vacaturepagina.png" width="375px" alt="screenshot van de vacaturepagina">
 </details>
@@ -58,26 +58,31 @@ https://stach-food.nl/
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
+  Het testen met de screenreader vond ik vrij lastig omdat ik was afgeleid door de stem en het niet helemaal onder de knie hebben van het systeem waardoor ik het van het weekend nog een keer ga proberen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Met de muis is de website goed te bedienen  maar soms weet je niet zeker of je de focus ligt op een button of link waardoor je dan per ongeluk sneller klikt.
+  Helaas was dit niet zo met het toetsenbord. Door te tabben door de website en enter te gebruiken kon ik gemakkelijk door de navigatie in het menu maar vanaf daar loop je snel tegen wat problemen aan.
+  1. Je weet vooral bij secties met afbeeldingen niet waar je bent/de focus op ligt.
+  2. In plaats van naar een button of link toe te tabben ligt de focus op de hele sectie waardoor je niet binnen die sectie kan navigeren.
+  3. Het inschrijven voor de nieuwsbrief is visueel gezien aan het einde maar wanneer je er door heen tabt aan het begin wat niet heel logisch is omdat je dan ook even de focus kwijt bent.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
+  De bovenstaande problemen kunnen opgelost worden een hover-state op butten en links toe te passen. Wanneer je tabt door de website op het gedeelte waar de focus op ligt bijvoorbeeld een randje omheen te laten zien en de rest moet gedaan worden in de html denk ik, dus hier ga ik naar kijken bij de Breakdownschets.
 
   #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De website is met een slechte moteriek goed te gebruiken doordat de buttons en links aan de grote kant zijn.
 
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De website heb ik met alle verschillende brillen getest. e
+  Er kwam uit dat het kleurcontrast ervoor zorgt dat er eigenlijk geen problemen zijn voor mensen die kleurenblind zijn maar uit de andere brillen bleek dat de tekst binnen de tekst zelf en binnen de buttons soms moeilijk te lezen was.
+  Ook is er geen darkmode op de website.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  De bovenstaande problemen zouden opgelost kunnen worden door het lettertype van de tekst en in de buttons groter te maken en een darkmode te ontwerpen.
 
 </details>
 
