@@ -97,7 +97,7 @@ https://stach-food.nl/
   <img src="readme-images/main-breakdown.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### De schets van de footer van beide pagina's:
-  <img src="readme-images/footer-formulier.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/footer-breakdown.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
