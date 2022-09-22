@@ -119,9 +119,9 @@ https://stach-food.nl/
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Verschillende stukken code wordt gezien als link dat doorlinkt naar mijn andere html pagina, in de code kunnen we dit niet vinden | en dit             | en ik dit    | en dan ik dat    |
+  | Is de introductie afbeelding en h1 nog een stuk van de header of niet? | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Kan een h2 boven een h1 in de html omdat de h1 belangrijker is maar visueel wel onderin staat?       | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
