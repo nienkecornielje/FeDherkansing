@@ -57,14 +57,13 @@ https://stach-food.nl/
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-  Het testen met de screenreader vond ik vrij lastig omdat ik was afgeleid door de stem en het niet helemaal onder de knie hebben van het systeem waardoor ik het van het weekend nog een keer ga proberen.
+  Het testen met de screenreader vond ik vrij lastig omdat ik was afgeleid door de stem en het systeem niet helemaal onder de knie kreeg waardoor ik het van het weekend nog een keer ga proberen.
 
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
 
   #### Muis en Toetsenbord
-  Met de muis is de website goed te bedienen  maar soms weet je niet zeker of je de focus ligt op een button of link waardoor je dan per ongeluk sneller klikt.
+  Met de muis is de website goed te bedienen  maar soms weet je niet zeker of de focus ligt op een button of link waardoor je dan per ongeluk sneller klikt.
   Helaas was dit niet zo met het toetsenbord. Door te tabben door de website en enter te gebruiken kon ik gemakkelijk door de navigatie in het menu maar vanaf daar loop je snel tegen wat problemen aan.
   1. Je weet vooral bij secties met afbeeldingen niet waar je bent/de focus op ligt.
   2. In plaats van naar een button of link toe te tabben ligt de focus op de hele sectie waardoor je niet binnen die sectie kan navigeren.
@@ -73,11 +72,11 @@ https://stach-food.nl/
 
   De bovenstaande problemen kunnen opgelost worden een hover-state op butten en links toe te passen. Wanneer je tabt door de website op het gedeelte waar de focus op ligt bijvoorbeeld een randje omheen te laten zien en de rest moet gedaan worden in de html denk ik, dus hier ga ik naar kijken bij de Breakdownschets.
 
-  #### Motoriek (shocks, elastiekjes)
+  #### Motoriek
   De website is met een slechte moteriek goed te gebruiken doordat de buttons en links aan de grote kant zijn.
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light).
+  #### Visueel
   De website heb ik met alle verschillende brillen getest. e
   Er kwam uit dat het kleurcontrast ervoor zorgt dat er eigenlijk geen problemen zijn voor mensen die kleurenblind zijn maar uit de andere brillen bleek dat de tekst binnen de tekst zelf en binnen de buttons soms moeilijk te lezen was.
   Ook is er geen darkmode op de website.
@@ -91,19 +90,14 @@ https://stach-food.nl/
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>
+  ### De schets van de header van beide pagina's:
+  <img src="readme-images/header-breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### De hele homepagina:
-  <img src="readme-images/homepagina-breakdown.png" width="375px" alt="breakdown van de hele pagina">
+  ### De schets van de main met alle secties erin die verdeeld zijn over twee pagina's:
+  <img src="readme-images/main-breakdown.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### De hele vacaturepagina:
-  <img src="readme-images/vacaturepagina-breakdown.png" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### Een menu van een andere pagina voor de vacaturepagina (bijv filter):
-  <img src="readme-images/vacaturepagina-formulier.png" width="375px" alt="breakdown van nog een dynamisch deel">
-
-  ### Het hamburgermenu:
-  <img src="readme-images/hamburgermenu-breakdown.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### De schets van de footer van beide pagina's:
+  <img src="readme-images/footer-formulier.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
