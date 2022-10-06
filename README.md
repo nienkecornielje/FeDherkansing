@@ -150,11 +150,11 @@ https://stach-food.nl/
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Nienke    | Tess        | Maeve   | Thijs       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Mag je de afbeelding die je als achtergrond doet van een sectie, los in je html zetten. Dus buiten je section omdat het makkelijker is met css? | en dit             | Wanneer gebruik je welke css selectoren?  | Wanneer gebruik ik bij het indelen van mijn document een ul of een section?  |
+  | Is er een manier om van bijvoorbeeld de 4e sectie(nth-of-type(4) meerdere dingen te selecteren? | dit als er tijd is | Hoe deel je css-document netjes in? | dit wil ik zeker |
+  |         | ...                | Mag je bij afbeeldingen id's gebruiken?         | ...              |
 
 
   ### Verslag van meeting

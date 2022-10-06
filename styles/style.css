@@ -2,38 +2,120 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;
 }
 
 button, summary {
-	cursor: pointer;
+  cursor: pointer;
 }
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --titelfont: garage-gothic, sans-serif;
+  --tekstfont: Montserrat, sans-serif;
+  --geel: #FFD900;
 }
 
+body header {
+  /* JOUW CODE HIER - stap 3 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  height: 5em;
+}
 
+header img {
+  height: 8em;
+  width: auto;
+}
 
+header img:nth-of-type(2){
+  height: 5em;
+  margin-right: 1em;
+}
 
+header a {
+  text-decoration: none;
+  list-style: none;
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
-
-/* jouw code */
-
-body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+img {
+width: 110%;
+  height: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
+/* jouw code */
+main {
+  color: var(--tekstfont);
+  background-color: var(--color-background);
+  font-family: Garage-gothic, sans-serif;
+  font-weight: 300;
+}
+
+section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5em;
+}
+h1 h2 h3 h4 {
+  font-family: var(--titelfont);
+  font-weight: 400;
+}
+
+main section:nth-of-type(4)  {
+  position: absolute;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+main section:nth-of-type(4) p {
+  text-align: center;
+  color: white;
+}
+
+main section:nth-of-type(4) h2 {
+  text-align: center;
+  color: white;
+}
+
+main section:nth-of-type(4) h3 {
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+main section:nth-of-type(4) img {
+  position: absolute;
+   z-index: -1;
+
+
+
+
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--geel);
+}
