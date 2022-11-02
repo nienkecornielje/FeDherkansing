@@ -26,20 +26,70 @@ body header {
   align-items: center;
   width: 100%;
   position: fixed;
+  margin: 1;
   top: 0;
   background-color: white;
-  height: 5em;
+  height: 4em;
+}
+
+header button:nth-of-type(1){
+  z-index: 2;
+  right: 0;
+background-color: white;
+border: none;
+}
+
+
+header nav {
+  position: absolute;
+background-color: white;
+padding: 10em;
+right: 0;
+top: 0;
+left: 0;
+bottom: 0;
+position: fixed;
+display: none;
+}
+
+nav.toonMenu {
+  display:unset;
+}
+
+header nav ul li{
+      list-style-type: none;
+      align-items: center;
+      margin-right: 0;
+    margin-bottom: 1em;
+}
+
+header nav ul li a {
+  font-family: garage-gothic, sans-serif;
+      color: #000;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      line-height: normal;
+      position: relative;
+}
+
+header nav li:nth-of-type(6){
+  background-color: #FFD900;
 }
 
 header img {
-  height: 8em;
+  height: 9em;
   width: auto;
+  padding-left: 1em;
+  padding-top: 1em;
+  z-index: 2;
 }
 
 header img:nth-of-type(2){
   height: 5em;
-  margin-right: 1em;
+  margin-right: 2em;
 }
+
+
 
 header a {
   text-decoration: none;
@@ -56,12 +106,23 @@ width: 110%;
   padding-bottom: 1em;
 }
 
-/* jouw code */
+/* jouw code main even standaard teks van main en footer: is de opmaak*/
 main {
   color: var(--tekstfont);
   background-color: var(--color-background);
-  font-family: Garage-gothic, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: .019em;
+}
+
+main section img:nth-of-type(1){
+  max-height: 30em;
+  width: 100%;
+object-fit: cover;
+
+
+  f
 }
 
 section {
@@ -75,14 +136,15 @@ p {
 }
 h1 h2 h3 h4 {
   font-family: var(--titelfont);
-  font-weight: 400;
+  font-weight: 200px;
+  text-transform: none;
+  line-height: 200px;
 }
 
 main section:nth-of-type(4)  {
-  position: absolute;
   background-color: red;
   width: 100%;
-  z-index: 1;
+  /*z-index: 0;*/
 }
 
 main section:nth-of-type(4) p {
@@ -113,9 +175,19 @@ main section:nth-of-type(4) img {
 
 }
 footer {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between;*/
   align-items: center;
   width: 100%;
   background-color: var(--geel);
+}
+
+footer ul {
+  display: flex;
+
+
+}
+
+footer ul li
+{ list-style-type: none;
 }
