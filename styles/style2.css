@@ -5,20 +5,128 @@
 button, summary {
   cursor: pointer;}
 
+main section:first-of-type {
+background-image: url("../images/home-werken.jpeg");}
 
 
-button {
-
-        background: none;
-      border: 1px solid #000;
-      color: #000;
-      padding: 4px 10px;
-    margin: 0;
-  border-radius: 0;
-
+main section:nth-of-type(2) ul{
+  display: flex;
+  max-width: 36em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0  auto;
 }
 
-button:first-of-type{
+main section button {
+border: 1px solid #000;
+color: #000;
+padding: 0.7em;
+margin:0;
+border-radius: 0;
+font-family:var(--tekstfont), sans-serif;
+font-size: 0.9em;
+font-weight: 200;
+}
+
+main section:nth-of-type(2) button{
+  margin: 0.5em;
+}
+
+main section:nth-of-type(2) button:first-child {
   background-color: #ffd900;
 color: #000;
 }
+
+form {
+  display: grid;
+  padding: 1em;
+}
+
+form input{
+  display:block;
+  width: 100%;
+}
+label{
+  color: var(--tekstfont);
+  font-family: var(--tekstfont), sans-serif;
+  font-weight: 250;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  width: 100%;
+}
+
+form label:nth-of-type(4){
+grid-column-start:1;
+grid-column-end:-1;
+}
+
+form label:nth-of-type(8){
+grid-column-start:1;
+grid-column-end:-1;
+}
+
+main section form button{
+  margin-top:1em;
+  background-color: var(--geel);
+  width: 100%;
+  grid-column-start:1;
+  grid-column-end:-1;
+}
+
+
+
+main section:nth-of-type(3){
+  padding:1em;
+  background-color: #ECECEC;
+}
+
+main section:nth-of-type(3) div{
+
+  background-color: #ECECEC;
+}
+
+
+
+
+
+
+
+
+main section:nth-of-type(3) div img{
+background-color: #ECECEC;
+}
+main section:nth-of-type(3) img{
+  padding: 0;
+}
+
+main section:nth-of-type(3) h2{
+  font-size: clamp(1.7em,3vw,2em)
+}
+
+main section:nth-of-type(3) button{
+  background-color: #ECECEC;
+  margin: 1em;
+}
+
+
+
+@media (min-width: 50em) {
+main section:nth-of-type(3){
+grid-template-columns:1fr 1fr;}
+}
+
+main section:nth-of-type(5) input{
+grid-column:span 2;
+color: red;
+}
+main section:nth-of-type(3) div{
+  padding: 10%;
+}
+
+
+
+/* main section:nth-of-type(3) img{
+  height: 100%;
+  width: auto;
+} */

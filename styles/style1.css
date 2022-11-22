@@ -9,10 +9,143 @@ button, summary {
   cursor: pointer;
 }
 
+:root {
+  /* startje */
+  --titelfont: 'Dosis', sans-serif;
+  --tekstfont: 'Montserrat', sans-serif;
+  --geel: #FFD900;
+  --zwart: #000;
+}
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+main section:first-of-type {
+background-image: url("../images/home-intro.jpeg");}
 
 
-  h1 {
-    z-index: -1;}
+
+main section:nth-of-type(2){
+background-image: url("../images/home-download-stach.jpeg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 45vh;
+width: auto;
+align-items: center;
+position: relative;
+border: solid;
+border-color: var(--wit);
+border-width: 1em;
+
+}
+
+main section:nth-of-type(2) h2{
+position: absolute;
+left: 50%;
+bottom:50%;
+width: 60%;
+transform:translate(-50%, 0%);
+margin:0;
+padding:.5em;
+padding-bottom: 0;
+font-size: clamp(1em,6vw,1.7em);
+}
+
+main section:nth-of-type(2) a{
+position: absolute;
+width: 60%;
+left: 50%;
+top:50%;
+transform:translate(-50%, 0%);
+margin:0;
+padding:.5em;
+padding-bottom: 1em;
+text-align:center;
+background-color: var(--wit);
+}
+
+
+main section:nth-of-type(3){
+  background-color: pink;
+  grid-gap: 1em;
+  padding: 1em;
+}
+
+main section:nth-of-type(3) div{
+  background-color: white;
+  text-align: center;
+padding:20%;
+justify-items: center;
+}
+
+main section:nth-of-type(3) h2{
+  font-size: clamp(1.7em,3vw,2em)
+}
+
+
+main section:nth-of-type(3) img{
+  padding: 0;
+}
+
+main section:nth-of-type(3) div button{
+width: 10em;
+}
+
+main section:nth-of-type(4){
+background-image: url("../images/home-werken.jpeg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 45vh;
+
+align-items: center;
+position: relative;
+border: solid;
+border-color: var(--wit);
+border-width: 1em;
+
+}
+
+main section:nth-of-type(4) h2{
+position: absolute;
+left: 50%;
+bottom:50%;
+width: 60%;
+ transform:translate(-50%, 0%);
+ margin:0;
+ padding:.5em;
+ padding-bottom: 0;
+font-size: clamp(1em,6vw,1.7em);
+}
+
+main section:nth-of-type(4) a{
+position: absolute;
+width: 60%;
+left: 50%;
+top:50%;
+transform:translate(-50%, 0%);
+margin:0;
+padding:.5em;
+padding-bottom: 1em;
+text-align:center;
+background-color: white;
+}
+
+main section:nth-of-type(3) button{
+  border: 1px solid #000;
+  color: #000;
+    }
+
+main section:nth-of-type(5) button{
+    background-color: white;
+      border: 1px solid #000;
+
+        }
+
+
+
+@media (min-width: 50em) {
+  main section:nth-of-type(3){
+  grid-template-columns:1fr 1fr;}
+  }

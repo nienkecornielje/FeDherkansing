@@ -11,6 +11,9 @@
 	<link href="styles/style.css" rel="stylesheet">
 	<link href="styles/style1.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/stachlogo.jpeg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,14 +32,16 @@
 
 		<!--de buttons voor het hamburgermenu -->
 		<button aria-hidden="true"><img src="images/hamburgeropen.png" alt="" /><img src="images/hamburgersluiten.png" alt="" /></button>
-
 	</header>
 
 	<main>
+
 		<link rel="stylesheet" href="/css/master.css">
 		<section>
-			<h1> Lekker bezig</h1>
-			<img src="images/home-intro.jpeg" alt="Impressieafbeelding van de homepagina">
+			<h1>Lekker bezig</h1>
+		</section>
+
+		<article>
 			<h2>Stach weet wat lekker is</h2>
 			<p>Bij STACH denken wij elke dag na over hoe wij ervoor kunnen zorgen dat jij de dag goed doorkomt. Dat doen we door elke dag heerlijke barista koffie te zetten, verse croissantjes, kokosmakronen en brood af te bakken maar ook hebben we gezonde
 				coldpressed juices of een healthy gingershot om je dag nóg beter te beginnen. In de middag kan je kiezen uit een van onze befaamde broodjes, bijvoorbeeld onze Truffle Meatball sandwich en onze Vegan Chicken Avocado sandwich met pulled
@@ -44,53 +49,57 @@
 				je gewoon binnen voor kruidige curry, lekkere lasagne of een verse pokebowl met zalm. En voor de gezellige momenten in het leven hebben we heerlijke zoete lekkernijen en goede wijnen.
 				Wij zorgen voor jou, zodat jij kunt doen wat voor jou belangrijk is. Lekker bezig dus.
 			</p>
-		</section>
+		</article>
 
 		<section>
 			<h2>Nu: De Stach app in heel Amsterdam</h2>
 			<a href="#">Download'm nu & krijg de eerste koffie van ons!</a>
-			<img src="images/home-download-stach.jpeg" alt="Achtergrondafbeelding sectie download de Stachapp">
 		</section>
 
 		<section>
 			<img src="images/home-locatie.jpeg" alt="Impressieafbeelding van de sectie Stach locaties">
-			<p>Locaties</p>
-			<h2> Vind Stach in de buurt</h2>
-			<h3> Kom langs in een van onze winkels</h3>
-			<p>Zoek een winkel</p>
+			<div>
+				<p>Locaties</p>
+				<h2> Vind Stach in de buurt</h2>
+				<h3> Kom langs in een van onze winkels</h3>
+				<button>Zoek een winkel</button>
+			</div>
 		</section>
 
 		<section>
-			<img src="images/home-werken.jpeg" alt="Impressieafbeelding van de vacaturesectie">
 			<h2>Weet jij ook wat lekker is?</h2>
 			<a href="#">Kom je ook bij ons werken</a>
 		</section>
+	</main>
 
 
-		<footer>
-			<img src="images/stachgeel.png" alt="Het Stachlogo">
-			<p>Het leukste contact hebben we natuurlijk in de winkels!
-				Voor overige vragen kun je altijd mailen naar hallo@stach-food.nl.
-				We staan graag voor je klaar!</p>
+	<footer>
+		<img src="images/stachgeel.png" alt="Het Stachlogo">
 
-			<section>
-				<h3>Schrijf je in voor de nieuwsbrief</h3>
-				<form action="https://formsubmit.co/nienkecornielje15@gmail.com" method="post">
-					<input type="text" name="Email" placeholder="E-mail" required>
-					<button type="submit">Versturen</button>
-				</form>
-			</section>
+	<div>
+		<p>Het leukste contact hebben we natuurlijk in de winkels!
+			Voor overige vragen kun je altijd mailen naar hallo@stach-food.nl.
+			We staan graag voor je klaar!</p>
 
+		<section>
+			<h3>Schrijf je in voor de nieuwsbrief</h3>
+			<form action="https://formsubmit.co/nienkecornielje15@gmail.com" method="post">
+				<input type="text" name="Email" placeholder="E-mail" required>
+				<button type="submit">Versturen</button>
+			</form>
+		</section>
+
+		<section>
 			<button type="button" name="button">Bestel online</button>
-
 			<ul>
 				<li><a href=""><img src="images/facebook.png" alt="Logo van Facebook"></a></li>
 				<li><a href=""><img src="images/instagram.png" alt="Logo van Instagram"></a></li>
 				<li><a href=""><img src="images/deliveroo.png" alt="Logo van Deliveroo"></a></li>
 			</ul>
+		</section>
+		</div>
+	</footer>
 
-		</footer>
-	</main>
 </body>
 <script defer src="scripts/script.js"></script>
 
