@@ -156,15 +156,6 @@ https://stach-food.nl/
   | Is er een manier om van bijvoorbeeld de 4e sectie(nth-of-type(4) meerdere dingen te selecteren? | dit als er tijd is | Hoe deel je css-document netjes in? | dit wil ik zeker |
   |         | ...                | Mag je bij afbeeldingen id's gebruiken?         | ...              |
 
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
-
 </details>
 
 
@@ -220,20 +211,11 @@ https://stach-food.nl/
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Nienke      |  Tess          | Maeve   | Thijs       |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Hoe koppel ik mijn tweede afbeelding in mijn html in de JS/CSS?  | Hoe kan ik een section goed plaatsen door middel van grid?            | Waarom zorgt font-size voor tussenruimte bij img's | Hoe kan ik goed plannen of position fixed ook handig is met responsive?  |
+  | Moet ik werken met max-width of min-width met de media-querySelector? | Hoe moet ik een carousel maken met knoppen aan de zijkant? | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
@@ -247,19 +229,19 @@ https://stach-food.nl/
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind1.1.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/eind1.0.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/eind1.2.png" width="375px" alt="bummer">
 </details>
 
 
@@ -273,8 +255,7 @@ https://stach-food.nl/
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  - De kennis van Sanne en Jeffrey
+
 
 </details>
