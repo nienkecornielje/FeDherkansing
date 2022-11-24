@@ -23,7 +23,12 @@ button, summary {
   --geel: #FFD900;
   --zwart: #000;
   --wit: white;
+  --roze: pink;
+  --rood: red;
 }
+
+:focus {
+    outline: 0.2em solid var(--roze);   }
 
 body header {
   display: flex;
@@ -75,6 +80,16 @@ button.swapImg img:first-of-type {
 }
 
 /* de normale css weer */
+header img {
+  height: 4em;
+  width: auto;
+  padding-left: 1em;
+  z-index: 55;
+}
+header a {
+  text-decoration: none;
+  list-style: none;
+}
 header nav ul {
   margin-top: 40em;
   align-self: center;
@@ -107,12 +122,7 @@ header nav li:nth-of-type(6) a {
   padding: 0.2em;
 }
 
-header img {
-  height: 4em;
-  width: auto;
-  padding-left: 1em;
-  z-index: 55;
-}
+
 
 header img:first-of-type {
   margin-top: 1.5em;
@@ -132,15 +142,18 @@ header button img:nth-of-type(2) {
   margin: 0;
 }
 
-header a {
-  text-decoration: none;
-  list-style: none;
+p {
+  color: var(--tekstfont);
+  font-family: var(--tekstfont), sans-serif;
+  font-weight: 250;
+  padding: 0 1em;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.5em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
-/****************/
-/* JOUW STYLING */
-/****************/
-/*  :nth-of-type(3)*/
 main > section:not(:nth-of-type(1)),
 main > article {
   max-width:60em;
@@ -153,7 +166,13 @@ main section{
 
 main article{
   margin-top: 1em;
+}
 
+main img {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  padding-top: 2em;
 }
 
 article h2 {
@@ -205,27 +224,6 @@ main section:nth-of-type(2) p {
   padding-bottom: 1.5em;
 }
 
-
-main img {
-  width: 100%;
-  height: auto;
-  padding: 1em;
-  padding-top: 2em;
-}
-
-/* jouw code main even standaard teks van main en footer: is de opmaak*/
-p {
-  color: var(--tekstfont);
-  font-family: var(--tekstfont), sans-serif;
-  font-weight: 250;
-  padding: 0 1em;
-  font-size: 1em;
-  text-align: center;
-  line-height: 1.5em;
-  margin-left: 3em;
-  margin-right: 3em;
-}
-
 main button {
   color: var(--tekstfont);
   background-color: var(--color-background);
@@ -238,9 +236,18 @@ main button {
   border: 1px solid var(--zwart);
 }
 
-input{
+button:hover {
+      background-color:var(--roze);
+      transition: 0.7s;
+  }
 
-    border: 1px solid var(--zwart);
+li:hover {
+        background-color:var(--roze);
+        transition: 0.3s;
+    }
+
+input{
+    border: 0.1em solid var(--zwart);
   padding: 1em;
 }
 
@@ -301,8 +308,6 @@ main article p {
   padding-top: 1em;
 }
 
-
-
 main a {
   font-family: var(--tekstfont), sans-serif;
   color: var(--zwart);
@@ -311,9 +316,6 @@ main a {
   text-decoration: none;
   letter-spacing: 0.1em;
 }
-
-
-
 
 footer{
   width: 100%;
@@ -425,8 +427,6 @@ footer ul {
 footer ul li {
   list-style-type: none;
 }
-
-
 
 @media (min-width: 50em) {
   header button {

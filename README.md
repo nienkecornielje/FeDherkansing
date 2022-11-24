@@ -123,15 +123,6 @@ https://stach-food.nl/
   | Is de introductie afbeelding en h1 nog een stuk van de header of niet? | dit als er tijd is | nog een punt | dit wil ik zeker |
   | Kan een h2 boven een h1 in de html omdat de h1 belangrijker is maar visueel wel onderin staat?       | ...                | ...          | ...              |
 
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
 </details>
 
 
@@ -168,30 +159,22 @@ https://stach-food.nl/
   <summary>uitwerken na test in 8e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen:
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  Het testen met de screenreader had ik al beter onder de knie als goed is heb ik in mijn html alles kunnen labelen voor de screenreader.
 
   #### Muis en Toetsenbord
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  Door het testen van de vorige keer wist ik dat ik me moest gaan focussen op het tabben door de website en vandaag bleek dat dat goed ging bij de linkjes, navigatie en formulieren.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Daarnaast is door middel van de hoverstate en de focusstate ook meer duidelijkheid waar iemand nu eigenlijk is gebleven.
 
-
-  #### Motoriek (shocks, elastiekjes)
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  #### Motoriek
+  De website is met een slechte moteriek goed te gebruiken doordat de buttons en links aan de grote kant zijn.
 
 
-  #### Visueel (brillen, contrast, kleurenblind, dark/light).
-  Hier korte omschrijving (met indien nodig afbeeldingen)
-
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  #### Visueel
+Ik heb ervoor gekozen om niet te beginnen aan een dark-mode waardoor de website nog niet zo toegankelijk is zoals het zou kunnen zijn maar wel heb ik de contrasten binnen de buttons aangepast waardoor het voor kleurenblinden makkelijker van elkaar te onderscheiden is.
 
 </details>
 
@@ -228,18 +211,14 @@ https://stach-food.nl/
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
+  ###Conclusie Fed inschrijving 3 ;):
   <img src="readme-images/eind1.1.png" width="375px" alt="uitomst opdracht 1">
-
-
-  ### Dit ging goed/Heb ik geleerd:
-  Korte omschrijving met plaatjes
-
   <img src="readme-images/eind1.0.png" width="375px" alt="top">
-
-
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  <img src="readme-images/eind1.3.png" width="375px" alt="top">
+  In dit project heb ik geleerd dat coderen eigenlijk een hele leuke puzzel is. Aan het begin zie je alleen het eindplaatje waar je naartoe moet werken en je hebt eigenlijk alleen nog maar de randjes. Door de lessen krijg je wat meer stukjes die bij je elkaar kan leggen maar het echte puzzelen begint pas wanneer je er echt voor gaat zitten.
+  Sinds dat moment begon ik code ook steeds leuker te vinden omdat je het overzicht begint te zien en je gerichter aan het werk kan gaan. Met wat hulp van Sanne en Jeffrey ben ik beter geworden in sneltrucjes en begin ik javascrip te begrijpen.
+  Wel vind ik het soms nog lastig om met minder regels code te schrijven omdat ik dacht het fijn te vinden om het bij elk onderdeel neer te zetten wat uiteindelijk meer werk en onoverzichtelijk werkt. Hier zou ik de volgende keer meer aandacht aan willen besteden omdat het toch lekkerder werkt.
+  Al met al durf ik te zeggen dat drie keer scheepsrecht is en ik het nog leuk ben gaan vinden ook
 
   <img src="readme-images/eind1.2.png" width="375px" alt="bummer">
 </details>
@@ -252,8 +231,6 @@ https://stach-food.nl/
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
   - De kennis van Sanne en Jeffrey
 
